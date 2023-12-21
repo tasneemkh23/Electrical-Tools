@@ -1,0 +1,187 @@
+/* هذا الملف يحدد التنسيق العام للصفحات */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #98b7d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#header img {
+    width: 160px;
+    height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ83T7ArR7jsK-whDoWVZKnSQGBQoLKwrz0aYOgwT8cg&s);
+    background-size: cover;
+}
+
+#header h1 {
+    color: #1a4364;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    margin: 10px;
+}
+
+#menu li a {
+    color: #1b3f63;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #0c253b;
+    font-weight: bold;
+}
+
+#content {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #1f4c81;
+    direction: RTL;
+
+}
+
+#content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    direction: RTL;
+}
+
+#content p {
+    margin-bottom: 10px;
+    direction: RTL;
+}
+
+#content ul {
+    margin-bottom: 10px;
+    direction: RTL;
+}
+
+#content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+    direction: RTL;
+}
+
+#content th,
+#content td {
+    border: 1px solid #333333;
+    padding: 10px;
+    text-align: center;
+    direction: RTL;
+
+
+}
+
+#content button {
+    background-color: #98b7d2;
+    color: #22445a;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    direction: RTL;
+}
+
+#content button:hover {
+    background-color: #3f7d9f;
+    direction: RTL;
+}
+
+#cart {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #1f5b80;
+}
+
+#cart h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#cart p {
+    margin-bottom: 10px;
+}
+
+#cart-items {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#cart-items th,
+#cart-items td {
+    border: 1px solid #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+#form {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #1f5b80;
+}
+
+#form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#form input {
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #333333;
+    padding: 10px;
+}
+
+#form button {
+    background-color: #98b7d2;
+    color: #1c4756;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #9dccea;
+}
+
+#footer {
+    background-color: #98b7d2;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #1c4756;
+    text-align: center;
+}
